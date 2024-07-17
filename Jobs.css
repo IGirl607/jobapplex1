@@ -1,0 +1,33 @@
+.jobcard{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.cards3 {
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    padding: 7px;
+    gap:15px;
+    border-radius: 4px;
+    background-color: white;
+}
+.cards3:hover {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(102, 102, 105, 1);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(102, 102, 105, 1);
+    box-shadow: 7px 7px 5px 0px rgba(102, 102, 105, 1);
+    transition: all 0.3s;
+}
+.jobcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    max-width: 1500px;
+    background-color:#ece9e9;
+}
+.jobcontainer h1{
+    display: flex;
+    justify-content: center;
+}

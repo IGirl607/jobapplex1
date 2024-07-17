@@ -1,0 +1,31 @@
+.resume_area {
+    width: 100%;
+    display: flex;
+    background: #00000085;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.resume_block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close {
+    position: absolute;
+    right: 36px;
+    top: 35px;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+}
+
+.resume_block img {
+    max-width: 550px;
+    height: auto;
+}

@@ -1,0 +1,10 @@
+.nocontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.nocontent img{
+    width:400px;
+}
+

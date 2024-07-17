@@ -1,0 +1,35 @@
+.container4 h3{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.hoarding{
+    display: flex;
+    gap:20px;
+}
+.card{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  width: 230p;
+  height: 230px;
+  padding: 10px 50px;
+  gap: 12px;
+  justify-content: center;
+  background-color:#fff;
+}
+.working{
+    margin-top: 30px;
+    background-color: #f4f2f5;
+    height: 400px;
+}
+.c2{
+    background-color: #fce4ec;
+}
+.card i{
+    color:royalblue;
+}

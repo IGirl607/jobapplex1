@@ -1,0 +1,31 @@
+.hidefooter{
+    display: none;
+}
+.showfooter{
+    display: flex;
+    flex-direction: column;
+    background-color:#e3dbdb;
+}
+.copyright{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width:200px;
+    padding: 0px 525px;
+}
+@media (max-width: 830px) {
+    .showfooter {
+      padding: 12px 0px;
+    }
+  }
+  @media (max-width: 608px) {
+    .showfooter {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }

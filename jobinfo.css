@@ -1,0 +1,22 @@
+.jobdata h3{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.banner p{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner span{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.75;
+}
+.jobinfos{
+    min-height: 100vh;
+    margin-top: 10px;
+    
+}

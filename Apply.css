@@ -1,0 +1,39 @@
+.applicant_block h3{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.applicant_block form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-left: 480px;
+    margin-top: 20px;
+}
+.applicant_block form input{
+    margin-bottom: 20px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+}
+.applicant_block form textarea{
+    margin-top: 20px;
+    height: 120px;
+    width: 250px;
+    outline: none;
+}
+.applicant_block form button{
+    width:120px;
+    margin-left: 50px;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    border:none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+.applicant_block form button:hover{
+    background-color: #0056b3;
+}

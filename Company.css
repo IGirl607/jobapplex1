@@ -1,0 +1,45 @@
+.compny{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.topcompanies h3{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 15px;
+}
+.cards2 {
+    display: flex;
+    width:200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7px;
+    gap:15px;
+    border-radius: 4px;
+    background-color: white;
+}
+.topcompanies{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    max-width: 1500px;
+    background-color:#ece9e9;
+}
+.cards2:hover {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(102, 102, 105, 1);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(102, 102, 105, 1);
+    box-shadow: 7px 7px 5px 0px rgba(102, 102, 105, 1);
+    transition: all 0.3s;
+}
+.detail1 button{
+    margin-top: 5px;
+    padding: 5px 9px;
+    background-color: #98FF98;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}

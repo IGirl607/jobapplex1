@@ -1,0 +1,71 @@
+.top img{
+    width:100px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    align-items: center;
+    margin-top: 8px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.regis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputinfo{
+    display: flex;
+    align-items: center;
+}
+.inputs{
+    margin-bottom: 18px;
+}
+.icons{
+    background-color:rgb(4, 206, 139);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+.iconssel{
+    background-color:rgb(4, 206, 139);
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+.inputinfo input{
+    height:25px;
+    width:250px;
+    border: none;
+    background-color:#d6d3d3;
+    font-weight: bold;
+    outline: none;
+}
+.inputinfo select{
+    height: 28px;
+    width: 251px;
+    border: none;
+    background-color:#d6d3d3;
+    font-weight: bold;
+}
+.final button{
+    width: 282px;
+    height: 28px;
+    margin-top: 15px;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+}
+.top p{
+    font-weight: bolder;
+    font-size: medium;
+}
